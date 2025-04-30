@@ -7,7 +7,7 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import com.example.lamontanaapp.views.Home
+import com.example.lamontanaapp.views.HomeActivity
 
 class MainActivity : AppCompatActivity() {
 
@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity() {
     }
 
  private fun navigateToHome(){
-    val intent = Intent(this, Home :: class.java)
+    val intent = Intent(this, HomeActivity :: class.java)
     startActivity(intent)
  }
 }

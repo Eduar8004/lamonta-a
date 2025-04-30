@@ -9,7 +9,7 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.example.lamontanaapp.R
 
-class Home : AppCompatActivity() {
+class HomeActivity : AppCompatActivity() {
     private lateinit var viewProdctos: CardView
     private lateinit var viewPedidos: CardView
     private lateinit var viewCustomers: CardView
@@ -44,7 +44,7 @@ class Home : AppCompatActivity() {
     }
 
     private fun navigateToProducts() {
-        val intent = Intent(this, Productos::class.java)
+        val intent = Intent(this, ProductsActivity::class.java)
         startActivity(intent)
     }
 

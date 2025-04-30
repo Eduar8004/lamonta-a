@@ -22,11 +22,11 @@
             android:exported="false"
             android:theme="@style/Base.Theme.LaMontanaApp" />
         <activity
-            android:name=".views.Home"
+            android:name=".views.HomeActivity"
             android:exported="false"
             android:theme="@style/Base.Theme.LaMontanaApp" />
         <activity
-            android:name=".views.Productos"
+            android:name=".views.ProductsActivity"
             android:exported="false"
             android:theme="@style/Base.Theme.LaMontanaApp" />
         <activity

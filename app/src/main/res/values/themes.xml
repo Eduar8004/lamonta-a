@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.LaMontanaApp" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/appbarr</item>
+    </style>
+
+    <style name="Theme.LaMontanaApp" parent="Base.Theme.LaMontanaApp">
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorAccent">@android:color/holo_red_dark</item>
+    </style>
+</resources>
